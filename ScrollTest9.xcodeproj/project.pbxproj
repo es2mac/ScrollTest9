@@ -12,6 +12,7 @@
 		DA07F7141C0DBEEF002E118F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA07F7121C0DBEEF002E118F /* Main.storyboard */; };
 		DA07F7161C0DBEEF002E118F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA07F7151C0DBEEF002E118F /* Assets.xcassets */; };
 		DA07F7191C0DBEEF002E118F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA07F7171C0DBEEF002E118F /* LaunchScreen.storyboard */; };
+		DA07F7211C0DCF8B002E118F /* MainScrollViewBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07F7201C0DCF8B002E118F /* MainScrollViewBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DA07F7151C0DBEEF002E118F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA07F7181C0DBEEF002E118F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA07F71A1C0DBEEF002E118F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA07F7201C0DCF8B002E118F /* MainScrollViewBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScrollViewBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DA07F70E1C0DBEEF002E118F /* AppDelegate.swift */,
 				DA07F7101C0DBEEF002E118F /* ViewController.swift */,
+				DA07F7201C0DCF8B002E118F /* MainScrollViewBehavior.swift */,
 				DA07F7121C0DBEEF002E118F /* Main.storyboard */,
 				DA07F7151C0DBEEF002E118F /* Assets.xcassets */,
 				DA07F7171C0DBEEF002E118F /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				DA07F7111C0DBEEF002E118F /* ViewController.swift in Sources */,
 				DA07F70F1C0DBEEF002E118F /* AppDelegate.swift in Sources */,
+				DA07F7211C0DCF8B002E118F /* MainScrollViewBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
